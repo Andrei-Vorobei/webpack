@@ -26,11 +26,11 @@ export function buildLoders(options: BuildOptions):ModuleOptions['rules'] {
 
   const cssLoaderWithModules = {
     loader: "css-loader",
-    options: {
-      modules: {
-        localIdentName: isDev ? '[path][name]__[local]' : '[hash:base64:8]',
-      },
-    },
+    // options: {
+    //   modules: {
+    //     localIdentName: isDev ? '[path][name]__[local]' : '[hash:base64:8]',
+    //   },
+    // },
   };
 
   const scssLoader = {
