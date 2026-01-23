@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Link, Outlet } from 'react-router-dom';
-import classes from './App.module.scss';
+import * as classes from './App.module.scss';
 
 export const App = () => {
   const [count, setCount] = useState<number>(0);
